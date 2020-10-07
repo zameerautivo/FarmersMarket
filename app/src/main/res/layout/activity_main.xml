@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+ <!--   <androidx.appcompat.widget.Toolbar
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:elevation="2dp"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@drawable/logo_farmers_market"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </androidx.appcompat.widget.Toolbar>-->
+    <!--  <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="20sp"
+          android:textColor="#6a5c3b"
+          android:lineSpacingExtra="-4sp"
+          android:layout_marginTop="22dp"
+          android:layout_marginLeft="29dp"
+          android:fontFamily="@font/my_custom_font_semi_bold"
+          android:text="About Jolly&apos;s Pharmacy"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="14sp"
+          android:textColor="#6a5c3b"
+          android:lineSpacingExtra="7sp"
+          android:layout_marginLeft="29dp"
+          android:layout_marginTop="25dp"
+          android:layout_marginRight="29dp"
+          android:text="Jollys Pharmacy Ltd. established  in 1980 by Anderson A Jolly. We aim to lead the way in healthcare in Dominica, bringing modern concepts and professionalism to an industry that is often undervalued. Jollys&apos; Pharmacy  is a Limited Liability company/corporation and over the years has become the leading provider of Pharmacuitical and other household items on the island of Dominica. Jollys&apos; Pharmacy Main office is located at 8 King George V Street, Roseau Commonwealth of Dominica. "
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textSize="14sp"
+          android:textColor="#6a5c3b"
+          android:lineSpacingExtra="7sp"
+          android:layout_marginLeft="29dp"
+          android:layout_marginRight="29dp"
+          android:layout_marginTop="15dp"
+          android:fontFamily="@font/my_custom_font_semi_bold"
+          android:text="To all of you, from all of us at Jolly&apos;s Pharmacy - Thank you and Happy Shopping!"
+          />-->
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <WebView
+            android:id="@+id/web_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </WebView>
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress"
+            android:layout_gravity="center"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>
